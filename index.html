@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    body{
+  background: #fff;
+}
+
+.box{
+  background: #fff;
+  width: 1500px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.box img{
+  width: 150px;
+  height: 150px;
+  animation: move 8s linear;
+  
+}
+
+@keyframes move {
+  0%{
+   
+  }
+
+  16.6%{
+    
+    transform: translate(325px,250px);
+  }
+  
+  33.2%{
+    transform: translate(1075px,-250px);
+    
+  }
+
+  49.8%{
+    transform: translate(1500px,0);
+  }
+
+  66.4%{
+    transform: translate(1075px,250px);
+  }
+
+  83%{
+    transform: translate(325px,-250px);
+  }
+
+  90%{
+    transform: translate(0,0);
+  }
+
+  95%{
+    transform: translate(750px,0);
+  }
+
+  98%{
+    transform: translate(750px,0) rotate(900deg);
+  }
+
+  100%{
+    transform: translate(750px,0) scale(10);
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img width="10%" src="https://i0.hdslb.com/bfs/article/50f920b383b9d9694e42f0d757142563145aa85d.gif@1256w_1158h_!web-article-pic.webp" alt="">
+
+  </div>
+</body>
+</html>
